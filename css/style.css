@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+root{
+
+}
+a{
+    text-decoration: none;
+    
+}
+.podcast-items{
+    display: flex;
+    justify-content: space-between;
+}
+.podcast-manubar>li{
+    display:inline-block;
+}
+.podcast-nav{
+    position: relative;
+    
+}
+.podcast-manubar ul{
+    position: absolute;
+    display: none;
+}
+.podcast-nav .podcast-manubar:hover{
+    display: inline-block;
+}
+
+
+
+
